@@ -1,0 +1,55 @@
+<!-- desenvolvedor: Murilo A M Oliveira - iniciou dia 08/04/2025 -->
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias CICALT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Notícias do Dia</h1>
+    </header>
+    <main>
+        <section id="noticias">
+        </section>
+        <aside>
+            <div id="adicionarNoticia">
+                <h3>Adicionar Notícia</h3>
+                <input type="text" id="titulo" placeholder="Título">
+                
+                <div class="input-container">
+                    <label for="mostrarImagem">Mostrar Imagem:</label>
+                    <input type="checkbox" id="mostrarImagem">
+                    <input type="text" id="imagem" placeholder="URL da Imagem" disabled>
+                </div>
+                
+                <textarea id="texto" placeholder="Texto"></textarea>
+                
+                <div class="input-container">
+                    <label for="mostrarLink">Mostrar Link:</label>
+                    <input type="checkbox" id="mostrarLink">
+                    <input type="text" id="link" placeholder="URL do Link" disabled>
+                </div>
+                
+                <div class="input-container">
+                    <label for="mostrarMusica">Mostrar Música:</label>
+                    <input type="checkbox" id="mostrarMusica">
+                    <input type="text" id="musica" placeholder="URL da Música" disabled>
+                </div>
+                
+                <div class="input-container">
+                    <label for="mostrarVideo">Mostrar Vídeo:</label>
+                    <input type="checkbox" id="mostrarVideo">
+                    <input type="text" id="video" placeholder="URL do Vídeo" disabled>
+                </div>
+                
+                <button id="adicionarNoticiaBtn">Adicionar</button>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
